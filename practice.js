@@ -50,25 +50,25 @@
 
 // OBJECTS
 
-const trainee = {
-    firstname: "Yash",
-    lastname: "Butani",
-    id: "00110",
-    city: "Rajkot",
-    Graduation: "Bachlors of Engineering",
-    fullName:	function() {return this.firstname + " " + this.lastname;}
-}
+// const trainee = {
+//     firstname: "Yash",
+//     lastname: "Butani",
+//     id: "00110",
+//     city: "Rajkot",
+//     Graduation: "Bachlors of Engineering",
+//     fullName:	function() {return this.firstname + " " + this.lastname;}
+// }
 
 // => using FOR OF loop:
 // for(let [i,j] of Object.entries(trainee)){
 //     console.log(i,":",j);
 
 // }
-for (let key in trainee) {
-    if (trainee.hasOwnProperty(key)) {
-      console.log(key + ": " + trainee[key]);
-    }
-  }
+// for (let key in trainee) {
+//     if (trainee.hasOwnProperty(key)) {
+//       console.log(key + ": " + trainee[key]);
+//     }
+//   }
 // console.log(trainee.fullName());
 
 
@@ -111,6 +111,9 @@ for (let key in trainee) {
 //     console.log(key + ":",value);
 
 // }
+
+
+
 
 
 
